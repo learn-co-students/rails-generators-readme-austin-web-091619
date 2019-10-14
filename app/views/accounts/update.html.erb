@@ -1,0 +1,8 @@
+<h1>Account Form:</h1>
+<%= form_for(@accounts) do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :payment_status %>
+    <%= f.text_field :payment_status %>
+    <%= f.submit %>
+  <% end %>
